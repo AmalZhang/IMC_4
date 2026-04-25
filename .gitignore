@@ -14,7 +14,6 @@ env/
 .vscode/
 
 # Competition-generated or local scratch outputs
-*.log
 *.tmp
 *.bak
 
