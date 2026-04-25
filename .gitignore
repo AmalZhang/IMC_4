@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Local environment / tooling
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+
+# Competition-generated or local scratch outputs
+*.log
+*.tmp
+*.bak
+
+# Large local datasets or exports can be added explicitly if needed.
