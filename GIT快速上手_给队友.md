@@ -15,8 +15,8 @@
 ### 第一次下载仓库
 
 ```powershell
-git clone <仓库地址>
-cd IMC
+git clone https://github.com/AmalZhang/IMC_4.git
+cd IMC_4
 ```
 
 ### 每次开始工作前
@@ -47,7 +47,7 @@ git status
 ### 提交代码
 
 ```powershell
-git add trader_round3.py round3_analysis.py
+git add .
 git commit -m "feat: improve hydrogel trading logic"
 ```
 
@@ -56,6 +56,17 @@ git commit -m "feat: improve hydrogel trading logic"
 ```powershell
 git push -u origin feat/r3-hydrogel
 ```
+
+### 如果你分析了平台测试日志
+
+把对应日志目录也一起提交，例如：
+
+```powershell
+git add ROUND_3/logs/406001
+git commit -m "chore: add Round 3 test logs 406001"
+```
+
+这样主线维护者和 Codex 可以基于同一份日志继续优化。
 
 ## 什么时候需要问主线维护者
 

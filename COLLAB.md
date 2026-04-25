@@ -13,8 +13,10 @@
 
 ## 当前仓库约定
 
+- GitHub 远端：`https://github.com/AmalZhang/IMC_4.git`
 - 提交文件：`trader_round3.py`
 - 本地分析文件：`round3_analysis.py`
+- 平台测试日志：`ROUND_3/logs/<run_id>/`
 - 规则索引：`AGENTS.md`
 - 比赛协作流程：`IMC协作提交流程.md`
 - 本协作文档：`COLLAB.md`
@@ -37,8 +39,8 @@
 如果你已经把仓库同步到了 GitHub 或其他远端，队友执行：
 
 ```powershell
-git clone <仓库地址>
-cd IMC
+git clone https://github.com/AmalZhang/IMC_4.git
+cd IMC_4
 ```
 
 ### 2. 开始一个新任务前，先更新主线
@@ -75,7 +77,7 @@ python -m py_compile trader_round3.py round3_analysis.py
 
 ```powershell
 git status
-git add trader_round3.py round3_analysis.py
+git add .
 git commit -m "feat: improve round 3 option pricing"
 git push -u origin feat/r3-option-smile
 ```
@@ -155,11 +157,23 @@ git push -u origin feat/r3-option-smile
 
 - 只有一个人负责上传到 IMC。
 - 只有一个版本应该被设为 `active`。
+- 平台上传后的测试日志应放入 `ROUND_3/logs/<run_id>/` 并同步到 GitHub。
 - 平台结果出来后，不要靠口头描述，尽量贴：
   - 总 PnL
   - 分产品表现
   - debug log
   - 是否超时 / 是否报错
+
+## 已落地的当前状态
+
+目前仓库已经具备以下条件：
+
+- 本地 git 仓库已初始化
+- `main` 已推送到 GitHub
+- `origin` 已配置
+- 当前可以直接开始 `clone / pull / branch / push`
+
+所以现在不需要再单独搭建协作环境，你和队友可以直接开工。
 
 ## 给队友的实际建议
 

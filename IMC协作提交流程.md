@@ -50,6 +50,8 @@ Codex 会负责：
 - 提交文件：`trader_round3.py`
 - 本地分析脚本：`round3_analysis.py`
 - 规则索引：`AGENTS.md`
+- GitHub 仓库：`https://github.com/AmalZhang/IMC_4.git`
+- 平台测试日志目录：`ROUND_3/logs/`
 
 ### 3. 提交前检查
 
@@ -83,6 +85,70 @@ python -m py_compile trader_round3.py
 必须确认的一点：
 
 - 平台上最终被锁定的是最后一个成功并设为 `active` 的版本，不是你本地最新文件。
+
+## GitHub 同步工作流
+
+当前仓库已经完成以下配置：
+
+- 本地仓库已初始化
+- 远端 `origin` 已连接到 `https://github.com/AmalZhang/IMC_4.git`
+- `main` 已经成功推送到 GitHub
+
+这意味着你和队友现在可以直接围绕同一个仓库协作。
+
+### 你队友第一次开始协作
+
+让队友执行：
+
+```powershell
+git clone https://github.com/AmalZhang/IMC_4.git
+cd IMC_4
+```
+
+### 你每天开始工作前
+
+```powershell
+git checkout main
+git pull
+```
+
+### 队友每天开始工作前
+
+```powershell
+git checkout main
+git pull
+git checkout -b feat/r3-本次任务名
+```
+
+### 队友完成一次实验后
+
+```powershell
+python -m py_compile trader_round3.py round3_analysis.py
+git add .
+git commit -m "feat: 描述本次改动"
+git push -u origin feat/r3-本次任务名
+```
+
+### 你合入主线前
+
+你需要做的不是马上上传 IMC，而是先确认：
+
+1. 这次改动只解决一个明确问题
+2. 本地检查已通过
+3. 没有破坏主线当前稳定性
+4. 如有平台日志，解释与改动目标一致
+
+### IMC 平台日志的版本管理
+
+当前约定是把平台上传后的测试日志也纳入仓库，便于你和队友基于同一份结果分析。
+
+建议保留这些文件：
+
+- `ROUND_3/logs/<run_id>/<run_id>.py`
+- `ROUND_3/logs/<run_id>/<run_id>.log`
+- `ROUND_3/logs/<run_id>/<run_id>.json`
+
+不建议删除旧日志，除非仓库体积明显失控。
 
 ## 每次提交后必须回传给 Codex 的信息
 
@@ -245,9 +311,10 @@ debug log 里的关键报错/异常：
 
 1. 以 `trader_round3.py` 作为唯一提交文件
 2. `round3_analysis.py` 只用于本地分析，不上传
-3. 每次提交后把平台结果贴给 Codex
-4. Codex 修改后，你再上传新版本
-5. 截止前保留一个你确认过的稳定版本，不要只留实验版
+3. `ROUND_3/logs/` 中的平台测试日志可以上传到 GitHub，便于协作分析
+4. 每次提交后把平台结果贴给 Codex
+5. Codex 修改后，你再上传新版本
+6. 截止前保留一个你确认过的稳定版本，不要只留实验版
 
 ## 一句话执行原则
 
