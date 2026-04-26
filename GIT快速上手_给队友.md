@@ -31,7 +31,7 @@ git pull
 ```powershell
 git checkout -b feat/r3-hydrogel
 ```
-
+让ClaudeCode之类的分析应该创建什么类型的分支，例如 `feat/` 或 `chore/`。
 ### 改完后检查
 
 ```powershell

@@ -47,7 +47,7 @@ class Trader:
         "VEV_4500": 9.0,
         "VEV_5000": 4.0,
         "VEV_5100": 3.0,
-        "VEV_5200": 2.6,
+        "VEV_5200": 3.2,
         "VEV_5300": 2.8,
         "VEV_5400": 1.2,
         "VEV_5500": 1.0,
@@ -272,10 +272,10 @@ class Trader:
             _, delta = self.option_fair_and_delta(product, spot, tte_years, vol_shift)
             net_option_delta += qty * delta
 
-        cap = 185 if not late_phase else 200
+        cap = 185 if not late_phase else 170
         target = int(round(max(-cap, min(cap, -net_option_delta))))
         diff = target - current_underlying_position
-        if abs(diff) < (10 if not late_phase else 6):
+        if abs(diff) < (10 if not late_phase else 10):
             return []
 
         orders: List[Order] = []
@@ -283,7 +283,7 @@ class Trader:
         limit = self.LIMITS[self.VELVETFRUIT]
         urgency_edge = 4.0 if abs(diff) > 80 else 2.0
         if late_phase:
-            urgency_edge += 1.0
+            urgency_edge += 0.0
 
         if diff > 0:
             remaining = min(diff, limit - pos)

@@ -1,0 +1,222 @@
+[
+  {
+    "name": "cap170_d10_u0.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap170_d10_u0.0.py",
+    "score_sum_day012": -1388.0,
+    "days": {
+      "day_0": {
+        "pnl": 935.0,
+        "worst": -6888.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -759.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1563.5,
+        "worst": -2003.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap160_d10_u0.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap160_d10_u0.0.py",
+    "score_sum_day012": -1400.0,
+    "days": {
+      "day_0": {
+        "pnl": 902.0,
+        "worst": -7407.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -738.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1563.5,
+        "worst": -2003.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap150_d10_u0.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap150_d10_u0.0.py",
+    "score_sum_day012": -1544.5,
+    "days": {
+      "day_0": {
+        "pnl": 802.0,
+        "worst": -7912.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -783.0,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1563.5,
+        "worst": -2003.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap170_d12_u0.5",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap170_d12_u0.5.py",
+    "score_sum_day012": -1576.5,
+    "days": {
+      "day_0": {
+        "pnl": 935.0,
+        "worst": -6888.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -876.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap170_d12_u1.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap170_d12_u1.0.py",
+    "score_sum_day012": -1576.5,
+    "days": {
+      "day_0": {
+        "pnl": 935.0,
+        "worst": -6888.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -876.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap160_d12_u0.5",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap160_d12_u0.5.py",
+    "score_sum_day012": -1671.5,
+    "days": {
+      "day_0": {
+        "pnl": 930.0,
+        "worst": -7095.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -966.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap160_d12_u1.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap160_d12_u1.0.py",
+    "score_sum_day012": -1671.5,
+    "days": {
+      "day_0": {
+        "pnl": 930.0,
+        "worst": -7095.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -966.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap150_d12_u0.5",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap150_d12_u0.5.py",
+    "score_sum_day012": -1694.0,
+    "days": {
+      "day_0": {
+        "pnl": 867.0,
+        "worst": -8009.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -926.0,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap150_d12_u1.0",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap150_d12_u1.0.py",
+    "score_sum_day012": -1694.0,
+    "days": {
+      "day_0": {
+        "pnl": 867.0,
+        "worst": -8009.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -926.0,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1635.0,
+        "worst": -1873.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "cap160_d8_u0.5",
+    "file": "ROUND_3\\logs\\variant_trials_iter2\\cap160_d8_u0.5.py",
+    "score_sum_day012": -1905.5,
+    "days": {
+      "day_0": {
+        "pnl": 897.0,
+        "worst": -7574.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -752.5,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -2050.0,
+        "worst": -2286.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  }
+]

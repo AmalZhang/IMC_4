@@ -1,0 +1,134 @@
+[
+  {
+    "name": "v2_hedge_smoother",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_hedge_smoother.py",
+    "score_sum_day012": -2397.0,
+    "days": {
+      "day_0": {
+        "pnl": 935.0,
+        "worst": -6888.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -939.0,
+        "worst": -2899.5,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -2393.0,
+        "worst": -2751.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "v2_combo_5200_and_hedge",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_combo_5200_and_hedge.py",
+    "score_sum_day012": -4948.5,
+    "days": {
+      "day_0": {
+        "pnl": 801.0,
+        "worst": -5915.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -4355.5,
+        "worst": -4645.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1394.0,
+        "worst": -1767.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "v2_5200_wider_edges",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_5200_wider_edges.py",
+    "score_sum_day012": -6263.0,
+    "days": {
+      "day_0": {
+        "pnl": 754.0,
+        "worst": -5017.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -5167.5,
+        "worst": -5511.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -1849.5,
+        "worst": -2137.5,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "v2_5200_no_make",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_5200_no_make.py",
+    "score_sum_day012": -6508.5,
+    "days": {
+      "day_0": {
+        "pnl": 754.0,
+        "worst": -5017.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -5167.5,
+        "worst": -5511.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -2095.0,
+        "worst": -2411.5,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "v2_base_copy",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_base_copy.py",
+    "score_sum_day012": -7004.0,
+    "days": {
+      "day_0": {
+        "pnl": 887.0,
+        "worst": -5964.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -5796.0,
+        "worst": -6251.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -2095.0,
+        "worst": -2411.5,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  },
+  {
+    "name": "v2_smaller_option_sizes",
+    "file": "ROUND_3\\logs\\variant_trials\\v2_smaller_option_sizes.py",
+    "score_sum_day012": -7029.0,
+    "days": {
+      "day_0": {
+        "pnl": 1085.0,
+        "worst": -5669.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_1": {
+        "pnl": -5761.5,
+        "worst": -6209.0,
+        "velvet_two_sided_submissions": 0
+      },
+      "day_2": {
+        "pnl": -2352.5,
+        "worst": -2664.0,
+        "velvet_two_sided_submissions": 0
+      }
+    }
+  }
+]
